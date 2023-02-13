@@ -131,8 +131,8 @@ You can deploy this project using:
 
 👤 **Girma Tarekegn**
 
-- GitHub: [@manq2010](https://github.com/girma336/)
-- LinkedIn: [mancobasihlongonyane](https://linkedin.com/in/girma-tarekegn/)
+- GitHub: [@girma336](https://github.com/girma336/)
+- LinkedIn: [girma_tarekegn](https://linkedin.com/in/girma-tarekegn/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
