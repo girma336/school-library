@@ -1,4 +1,7 @@
-class Person
+require './nameable'
+require './capitalize_decorator'
+require './trimmer_decorator'
+class Person < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
@@ -12,6 +15,7 @@ class Person
     @name = name
     @age = age
     @parent_permission = parent_permission
+    super()
   end
 
   private
@@ -29,6 +33,10 @@ class Person
 
     false
   end
+
+  def correct_name
+    @name
+  end
 end
 
 # # person = Person.new(6, 'Girma', parent_permission: false)
@@ -38,3 +46,10 @@ end
 # # puts person.instance_eval('is_of_age?')
 # # puts person2.name
 # puts person2.id
+
+# person = Person.new(22, 'maximilianus')
+# puts person.correct_name
+# puts capitalizedPerson = CapitalizeDecorator.new(person)
+# puts capitalizedPerson.correct_name
+# puts capitalizedTrimmedPerson = TrimmerDecorator.new(capitalizedPerson)
+# puts capitalizedTrimmedPerson.correct_name
