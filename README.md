@@ -96,7 +96,7 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository by using the command line : 
-- `git clone https://github.com/manq2010/school-library.git`
+- `git clone https://github.com/girma336/school-library.git`
 
 ### Install
 
