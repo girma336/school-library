@@ -120,8 +120,7 @@ To run the project, execute the following command:
 👤 **Girma Tarekegn**
 
 - GitHub: [@girma336](https://github.com/girma336/)
-- LinkedIn: [girmaTarekegn](https://linkedin.com/in/girma-tarekegn/)
-
+- LinkedIn: [girma_tarekegn](https://linkedin.com/in/girma-tarekegn/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
