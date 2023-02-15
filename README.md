@@ -90,8 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 In order to run this project you need:
 
-- Node js installed on your computer
-- Npm Node package manager
+- Ruby installed on your computer
 - Terminal
 
 ### Setup
