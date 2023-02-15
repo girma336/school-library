@@ -31,13 +31,13 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
+  <!-- - [Run tests](#run-tests) -->
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -74,9 +74,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
 
-- [Live Demo Link]()
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,8 +90,7 @@ After you're finished please remove all the comments and instructions!
 
 In order to run this project you need:
 
-- Node js installed on your computer
-- Npm Node package manager
+- Ruby installed on your computer
 - Terminal
 
 ### Setup
@@ -103,25 +102,14 @@ Clone this repository by using the command line :
 
 Install this project with:
 
-`npm install`
+`bundle install`
 
 ### Usage
 
 To run the project, execute the following command:
 
- `npm start`
+ `ruby rubyfilename.rb`
 
-### Run tests
-
-To run tests, run the following command:
-
-`npm test `
-
-### Deployment
-
-You can deploy this project using: 
-
-`npm run deploy`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +121,6 @@ You can deploy this project using:
 
 - GitHub: [@girma336](https://github.com/girma336/)
 - LinkedIn: [girma_tarekegn](https://linkedin.com/in/girma-tarekegn/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
