@@ -3,7 +3,7 @@ require './capitalize_decorator'
 require './trimmer_decorator'
 class Person < Nameable
   attr_accessor :name, :age
-  attr_reader :id
+  attr_reader :id, :rentals
 
   def self.counter
     @counter ||= 0
@@ -16,6 +16,7 @@ class Person < Nameable
     @age = age
     @parent_permission = parent_permission
     super()
+    @rentals = []
   end
 
   private
@@ -37,19 +38,8 @@ class Person < Nameable
   def correct_name
     @name
   end
+
+  def add_rental(rental)
+    @rentals << rental
+  end
 end
-
-# # person = Person.new(6, 'Girma', parent_permission: false)
-# # person2 = Person.new(89)
-# # # person2 = Student.new("a")
-# # puts person.id
-# # puts person.instance_eval('is_of_age?')
-# # puts person2.name
-# puts person2.id
-
-# person = Person.new(22, 'maximilianus')
-# puts person.correct_name
-# puts capitalizedPerson = CapitalizeDecorator.new(person)
-# puts capitalizedPerson.correct_name
-# puts capitalizedTrimmedPerson = TrimmerDecorator.new(capitalizedPerson)
-# puts capitalizedTrimmedPerson.correct_name
