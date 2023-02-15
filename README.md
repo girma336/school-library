@@ -31,13 +31,13 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!-- - [🚀 Live Demo](#live-demo) -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
+  <!-- - [Run tests](#run-tests) -->
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -119,8 +119,8 @@ To run the project, execute the following command:
 
 👤 **Girma Tarekegn**
 
-- GitHub: [@manq2010](https://github.com/girma336/)
-- LinkedIn: [mancobasihlongonyane](https://linkedin.com/in/girma-tarekegn/)
+- GitHub: [@girma336](https://github.com/girma336/)
+- LinkedIn: [girmaTarekegn](https://linkedin.com/in/girma-tarekegn/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
