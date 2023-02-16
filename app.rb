@@ -49,19 +49,7 @@ class App
     age = gets.chomp.to_i
     print 'Name: '
     name = gets.chomp.capitalize
-    print 'Parent Permission [T/F]: '
-    parent_permission = gets.chomp.capitalize
-    case parent_permission
-    when 'T'
-      parent_permission = true
-    when 'F'
-      parent_permission = false
-    else
-      puts 'Invalid selection, please choose from Y or F'
-      print 'Parent Permission [T/F]: '
-      parent_permission = gets.chomp.capitalize
-    end
-    @person << Teacher.new(specialization, age, name, parent_permission: parent_permission)
+    @person << Teacher.new(specialization, age, name)
     puts ['Person created succsefully', ' ']
   end
 
