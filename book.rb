@@ -1,3 +1,4 @@
+require './rental'
 class Book
   attr_accessor :title, :author
   attr_reader :rentals
@@ -12,3 +13,6 @@ class Book
     @rentals << rental
   end
 end
+# rental = Rental.new("20/3/2023")
+
+# puts rental
